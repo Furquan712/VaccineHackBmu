@@ -20,12 +20,13 @@
 <br/>
 
 * Download and install a code/ text editor.
-    - Recommended-
-        - [Download VS Code](https://code.visualstudio.com/download)
-        - [Download Atom](https://atom.io/)
-<br/> <br/>
+- Recommended-
+- [Download VS Code](https://code.visualstudio.com/download)
+- [Download Atom](https://atom.io/)
+<br/>
+ <br/>
 
-### Installation using NPM 
+### Installation using YARN 
 
 * Download [Node Js and npm(Node package manager)](https://nodejs.org/en/) (when you install Node, npm also gets installed by default)
 <br/>
@@ -33,7 +34,7 @@
 
 * Clone the repository by running command
 ```
-git clone https://github.com/<your user-name>/ElectroTech.git
+git clone https://github.com/<your user-name>/vaccineHackBmu.git
 ```
 in your git bash.
 <br/>
