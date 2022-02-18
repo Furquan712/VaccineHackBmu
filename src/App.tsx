@@ -1,26 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import { Home, Search, Admin } from "./pages"
+import { ToastContainer } from "react-toastify"
+import "./app.scss"
+import "react-toastify/dist/ReactToastify.css"
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			<Router>
+				<Routes>
+					<Route path="/" element={<Home />} />
+					<Route path="/search" element={<Search />} />
+					<Route path="/admin" element={<Admin />} />
+				</Routes>
+			</Router>
+			<ToastContainer
+				position="bottom-right"
+				autoClose={7000}
+				hideProgressBar={false}
+				newestOnTop={false}
+				closeOnClick
+				rtl={false}
+				pauseOnFocusLoss
+				draggable
+				pauseOnHover
+				theme="dark"
+			/>
+		</div>
+	)
 }
 
-export default App;
+export default App
