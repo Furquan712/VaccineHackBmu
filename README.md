@@ -1,46 +1,72 @@
-# Getting Started with Create React App
+# Vaccine Data Blockchain
+<div align="center">
+ <h1>A sneak peek into what we have here</h1>
+ 
+![vaccine](vaccine.jpeg)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Technology Stack 🛠️
 
-## Available Scripts
 
-In the project directory, you can run:
+- **Coding Languages**: <img alt="JavaScript" src="https://img.shields.io/badge/typescript%20-%23323330.svg?&style=for-the-badge&logo=typescript&logoColor=%23F7DF1E"/> <img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img alt="scss" src="https://img.shields.io/badge/scss%20-%231572B6.svg?&style=for-the-badge&logo=scss&logoColor=white"/> <img alt="React" src="https://img.shields.io/badge/react%20-%231572B6.svg?&style=for-the-badge&logo=react&logoColor=white"/><img alt="python" src="https://img.shields.io/badge/python%20-%231572B6.svg?&style=for-the-badge&logo=python&logoColor=white"/>  <img alt="blockchain" src="https://img.shields.io/badge/blockchain%20-%231572B6.svg?&style=for-the-badge&logo=blockchain&logoColor=white"/>
 
-### `yarn start`
+- **Project Management Tools**: <img alt="GitHub" src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/> <img alt="Git" src="https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white"/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Environment Setup for local use-
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* Drop a :star: on the GitHub repository.
+<br/>
 
-### `yarn test`
+* Download [Git](https://git-scm.com/downloads) (when you install Git, Git Bash also gets installed by default)
+<br/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Download and install a code/ text editor.
+    - Recommended-
+        - [Download VS Code](https://code.visualstudio.com/download)
+        - [Download Atom](https://atom.io/)
+<br/> <br/>
 
-### `yarn build`
+### Installation using NPM 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Download [Node Js and npm(Node package manager)](https://nodejs.org/en/) (when you install Node, npm also gets installed by default)
+<br/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Clone the repository by running command
+```
+git clone https://github.com/<your user-name>/ElectroTech.git
+```
+in your git bash.
+<br/>
 
-### `yarn eject`
+* Run command `cd vaccineHackBmu`.
+<br/>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* Run this command to install all dependencies for the project.
+```
+yarn install
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br/>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* Run this command to start the project.
+```
+yarn start
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<br/>
 
-## Learn More
+* Open link to view the website in your browser window if it doesn't open automatically.
+```
+http://localhost:3000/
+```
+<br/>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Maintainers ✨
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/naqeeb2710"><img src="https://avatars.githubusercontent.com/u/36132542?s=400&u=f85fc63c2558ba38d0f04e67446b4820f44821a7&v=4" width="100px;" alt=""/><br /><sub><b>Naqeeb Ahmed<br/>
+      <td align="center"><a href="https://github.com/Furquan712"><img src="https://avatars.githubusercontent.com/u/78477491?v=4" width="100px;" alt=""/><br /><sub><b>Syed Md Furquan<br/>
+       <td align="center"><a href="https://github.com/ritikmasand"><img src="https://media-exp1.licdn.com/dms/image/C5603AQERDe8Poc3zmA/profile-displayphoto-shrink_200_200/0/1611934811060?e=1650499200&v=beta&t=HtR9bX4J6rDQ7XZdyqi74UXn_RPBNyBgTooKK88XlSY" width="100px;" alt=""/><br /><sub><b>Ritik Masand<br/>
+    
+  </tr>
+</table>
